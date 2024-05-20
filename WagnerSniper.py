@@ -30,7 +30,7 @@ def write_links_to_file(links, filename):
     with open(filename, 'w') as file:
         file.write('\n'.join(links))
 
-url = 'https://www.gradphotonetwork.com/Track/C.aspx?c=5Y73RHI385&q=25036912&n=4161944&l=Tatham&a=72708&e=2297827&t=g&email=ctatham@gmail.com'  # Put your URL here
+url = ''  # Put your URL here
 jpg_links = find_photos(url)
 
 for link in jpg_links:
