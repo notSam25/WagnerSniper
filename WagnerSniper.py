@@ -16,7 +16,7 @@ def download_images(image_links, output_folder):
         except Exception as e:
             print(f"Exception occurred while downloading image from {link}: {e}")
 
-def find_grad_photos(url):
+def find_photos(url):
     with webdriver.Firefox() as driver:
         driver.get(url)
         driver.implicitly_wait(60)
@@ -31,7 +31,7 @@ def write_links_to_file(links, filename):
         file.write('\n'.join(links))
 
 url = ''  # Put your URL here
-jpg_links = find_grad_photos(url)
+jpg_links = find_photos(url)
 
 for link in jpg_links:
     print('link -> ' + link)
