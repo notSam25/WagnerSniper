@@ -6,3 +6,5 @@
 
 # How to run
 > Download the script. Put in the designated URL you wish to download images from into the 'url' variable. Run the script. Successfully avoid paying hundreds of dollars for overpriced pictures.
+
+# Have fun!
